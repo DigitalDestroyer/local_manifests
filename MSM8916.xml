@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="git"
-          fetch="https://github.com/" />
-
+<remote name="git" fetch="https://github.com/" />
 
 <!-- surnia stuff -->
-<project path="device/motorola/surnia" name="czl3k/device_motorola_surnia" revision="lineage-15.1" remote="git"/>
+<project path="device/motorola/surnia" name="czl3k/device_motorola_surnia" revision="aosp-8.1" remote="git"/>
 
 <!-- msm8916 stuff -->
-<project path="device/motorola/msm8916-common" name="czl3k/device_motorola_msm8916-common" revision="lineage-15.1" remote="git"/>
+<project path="device/motorola/msm8916-common" name="czl3k/device_motorola_msm8916-common" revision="aosp-8.1" remote="git"/>
 <project path="kernel/motorola/msm8916" name="MOTO-M8916/kernel_motorola_msm8916" revision="lineage-15.1" remote="git"/>
 <project path="vendor/motorola" name="MOTO-M8916/vendor_motorola" revision="lineage-15.1" remote="git"/>
 
 <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="git" revision="lineage-15.1" />
 <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="git" revision="lineage-15.1" />
 <project name="LineageOS/android_external_bson" path="external/bson" remote="git" revision="lineage-15.1" />
-
 </manifest>
-
