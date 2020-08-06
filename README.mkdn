@@ -1,9 +1,9 @@
 
 
-mkdir .repo/local_manifests
+```mkdir .repo/local_manifests
 
 
-wget -O .repo/local_manifests/MSM8916.xml 'https://raw.githubusercontent.com/czl3k/android_manifest/lineage-15.1/MSM8916.xml'
+wget -O .repo/local_manifests/MSM8916.xml https://raw.githubusercontent.com/czl3k/android_manifest/lineage-15.1/MSM8916.xml
     
     
 repo sync -c --no-tags --no-clone-bundle --force-sync -j12
@@ -17,3 +17,4 @@ lunch aosp_surnia-userdebug  [?]
 
 make -j12
     
+```
