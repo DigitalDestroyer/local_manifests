@@ -1,8 +1,10 @@
-```mkdir .repo/local_manifests
+```
+
+mkdir .repo/local_manifests
 wget -O .repo/local_manifests/MSM8916.xml https://raw.githubusercontent.com/czl3k/local_manifests/aosp-8.1/MSM8916.xml
 repo sync -c --no-tags --no-clone-bundle --force-sync -j12
 . build/envsetup.sh
-lunch aosp_surnia-userdebug  [?]
+lunch aosp_surnia-userdebug
 make -j12
     
 ```

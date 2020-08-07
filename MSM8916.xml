@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+<!-- Remotes -->
 <remote name="git" fetch="https://github.com/" />
 
 <!-- surnia stuff -->
@@ -10,7 +12,11 @@
 <project path="kernel/motorola/msm8916" name="MOTO-M8916/kernel_motorola_msm8916" revision="lineage-15.1" remote="git"/>
 <project path="vendor/motorola" name="MOTO-M8916/vendor_motorola" revision="lineage-15.1" remote="git"/>
 
+<!-- Other stuff -->
+<project name="LineageOS/android_device_qcom_sepolicy" path="packages/resources/devicesettings" remote="git" revision="lineage-15.1" />
+<project name="LineageOS/android_system_qcom" path="packages/resources/devicesettings" remote="git" revision="lineage-15.1" />
 <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="git" revision="lineage-15.1" />
 <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="git" revision="lineage-15.1" />
 <project name="LineageOS/android_external_bson" path="external/bson" remote="git" revision="lineage-15.1" />
+
 </manifest>
